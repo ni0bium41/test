@@ -1,0 +1,17 @@
+let money = prompt("¬аш бюджет на мес€ц?", " ");
+let time = prompt ("¬ведите дату в формате YYYY-MM-DD", " ");
+let budgetName = prompt ("¬ведите об€зательную статью расходов в этом мес€це", " ");
+let howMuch = prompt ("¬о сколько обойдетс€?", " ");
+       budgetName = prompt ("¬ведите об€зательную статью расходов в этом мес€це", " ");
+      howMuch = prompt ("¬о сколько обойдетс€?", " ");
+
+let appData = {
+   budget : money,
+   timeData: time,
+   expenses: {
+            budgetName: howMuch } ,
+   optionalExpenses: " ",
+   income: " ",
+   savings: " "
+};
+alert("One day budget is equal" + money/30);

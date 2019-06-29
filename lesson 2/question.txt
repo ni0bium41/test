@@ -1,0 +1,3 @@
+let quest = [ ] + false - null + true;
+
+console.log(  quest );
